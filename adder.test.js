@@ -1,4 +1,4 @@
-import { adder } from './adder.js';
+import {adder} from './adder.js';
 
 describe('adder tests', () => {
   test('adds 1, then 2, then 4, should equal 7', () => {
@@ -7,7 +7,7 @@ describe('adder tests', () => {
     myAdder(2);
     myAdder(4);
     expect(myAdder()).toEqual(7);
-  }); 
+  });
 
   test('adds nothing, should return 0', () => {
     const myAdder = adder();
@@ -21,4 +21,4 @@ describe('adder tests', () => {
     anotherAdder(2);
     expect(myAdder()).not.toEqual(anotherAdder());
   });
-})
+});

@@ -4,4 +4,4 @@ export const adder = () => {
     sum += num;
     return sum;
   };
-}
+};
