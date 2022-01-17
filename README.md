@@ -6,4 +6,12 @@ We want to support git hooks without bitbucket plugins so that we can lint code 
 
 ## Setup
 
-* `npm install`
+* 
+* `yarn install`
+
+## Create a hook
+
+```
+npx husky add .husky/pre-commit "yarn test"
+# husky - created .husky/pre-commit
+```
